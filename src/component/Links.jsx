@@ -12,7 +12,7 @@ function Links() {
         <a href="http://books.zuri.team"  target='_blank' rel='noreferrer'>
              <button className="btn w-100" id='books'>Zuri Books</button>
         </a>
-        <a href="https://books.zuri.team/python-for-beginners?ref_id=<Olalekan>"  target='_blank' rel='noreferrer'>
+        <a href="https://books.zuri.team/python-for-beginners?ref_id=<Bunyamin Abdulsalam>"  target='_blank' rel='noreferrer'>
              <button className="btn w-100" id='book_python'>Python Books</button>
         </a>
         <a href="https://background.zuri.team"  target='_blank' rel='noreferrer'>
