@@ -7,9 +7,9 @@ function Footer() {
     <div className='container mt-5'>
         <hr />
         <div className='d-flex flex-column flex-md-row justify-content-between'>
-            <img src={zuriLogo} alt="" className='img-fluid h-25 mb-2 mt-1 col-4 col-md-2' />
+            <img src={zuriLogo} alt="" className='img-fluid h-25 mb-2 mt-1 col-4 col-md-1' />
             <p className='fs-6 text-secondary'>HNG Intership 9 Frontend Task</p>
-            <img src={i4gLogo} alt="" className='img-fluid h-25  col-4 col-md-2'/>
+            <img src={i4gLogo} alt="" className='img-fluid h-25  col-4 col-md-1'/>
         </div>
     </div>
     
