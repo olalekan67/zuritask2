@@ -25,7 +25,7 @@ function Links() {
                </a>
      </div>
           <div className='d-flex flex-row justify-content-center gap-3 gap-md-4 mt-2'>
-               <a href="http://github.com/olalekan67" className='text-dark fs-3' target="_blank" rel="noreferrer"><FaGithub /></a>
+               <a href="http://github.com/olalekan67/zuritask1" className='text-dark fs-3' target="_blank" rel="noreferrer"><FaGithub /></a>
                <FaSlack className='text-dark fs-3 mt-2'/>
      </div>
      </section>
