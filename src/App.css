@@ -3,16 +3,29 @@
 } */
 
 #profile_img{
-  height: 150px;
-  width: 150px;
+  height: 110px;
+  width: 110px;
   border-radius: 50%;
 }
-.btn{
+.profile-btn{
+  width: fit-content;
+  position: relative;
+  z-index: 1;
+  margin-top: -17em;
+  margin-right: 10em;
+}
+.btns{
   background-color: gainsboro;
   padding: 1em 0em;
   margin-bottom: 1em;
 }
-.btn:hover{
+.btns:hover{
   background-color: grey;
   color: black;
+}
+
+@media(max-width: 600px){
+  .profile-btn{
+    margin-right: 0em;
+  }
 }

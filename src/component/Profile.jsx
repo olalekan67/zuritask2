@@ -1,13 +1,17 @@
 import React from 'react'
 import profileImg from './assets/profile-img.jpg'
+import { FaShare } from 'react-icons/fa'
 
 function Profile() {
   return (
     <div className='mx-auto py-4 d-flex flex-column text-center'>
-        <img src={profileImg} alt="" id='profile_img' className='text-center mx-auto'/>
+        <img src={profileImg} alt="" id='profile_img' className='text-center img-fuid mx-auto'/>
         <h5 id='name' className='pt-2'>Bunyamin Abdulsalam</h5>
         <h5 id='twitter' className='d-none'>olalekan103</h5>
         <h5 className="d-none" id='slack'>Bunyamin Abdulsalam</h5>
+        <div className='position-top ms-auto'>
+          <button className='btn btn-outline-secondary rounded-pill col-1 profile-btn'><FaShare /></button>
+        </div>
     </div>
   )
 }
