@@ -8,8 +8,8 @@
   border-radius: 50%;
 }
 .profile-btn{
-  width: 20px;
-  height: 20px;
+  width: fit-content;
+  height: fit-content;
   border-radius: 50%;
   position: relative;
   z-index: 1;
