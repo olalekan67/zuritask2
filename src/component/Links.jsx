@@ -28,7 +28,7 @@ function Links({name}) {
                </a>
      </div>
           <div className='d-flex flex-row justify-content-center gap-3 gap-md-4 mt-2'>
-          <img src={slackImg} alt="" className='img-fluid text-dark fs-3 mt-2 mt-md-3 px-2 slack-img' />
+          <img src={slackImg} alt="" className='img-fluid text-dark fs-3 mt-2 mt-md-3 mx-2 slack-img' />
           <a href="http://github.com/olalekan67/zuritask1" className='text-dark fs-3 mt-md-1' target="_blank" rel="noreferrer"><FaGithub /></a>
      </div>
      </section>
