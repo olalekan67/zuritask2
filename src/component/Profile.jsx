@@ -12,7 +12,7 @@ function Profile({name}) {
         <h5 id='twitter' className='d-none'>olalekan103</h5>
         <h5 className="d-none" id='slack'>{name}</h5>
         <div className='position-top ms-auto'>
-          <button className='btn btn-outline-secondary col-1 profile-btn dot-btn'><TbDots /></button>
+          <button className='btn btn-outline-secondary col-1 profile-btn d-md-none'><TbDots /></button>
           <button className='btn btn-outline-secondary col-1 profile-btn share-btn'><FaShare /></button>
         </div>
     </div>
