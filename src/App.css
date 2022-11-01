@@ -29,18 +29,11 @@
   width: 25px;
   height: 25px;
 }
-.dot-btn{
-  display: none;
-}
 
 @media(max-width: 600px){
   .profile-btn{
     margin-right: 0em;
   }
-  .dot-btn{
-    display: flex;
-  }
-
   .share-btn{
     display: none
   }
