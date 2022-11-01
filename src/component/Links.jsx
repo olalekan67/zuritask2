@@ -17,7 +17,7 @@ function Links({name}) {
                <a href="http://books.zuri.team"  target='_blank' rel='noreferrer'>
                     <button className="btn btns w-100" id='books'>Zuri Books <br /> <p className='px-2'>Where you find books about design and coding</p></button>
                </a>
-               <a href={`https://books.zuri.team/python-for-beginners?ref_id=<${name}>`}  target='_blank' rel='noreferrer'>
+               <a href={`https://books.zuri.team/python-for-beginners?ref_id=${name}`}  target='_blank' rel='noreferrer'>
                     <button className="btn btns w-100" id='book_python'>Python Books</button>
                </a>
                <a href="https://background.zuri.team"  target='_blank' rel='noreferrer'>
@@ -28,7 +28,7 @@ function Links({name}) {
                </a>
      </div>
           <div className='d-flex flex-row justify-content-center gap-3 gap-md-4 mt-2'>
-          <img src={slackImg} alt="" className='img-fluid text-dark fs-3 mt-2 mt-md-3 mx-2 slack-img' />
+          <a Greg="https://slack.com/Abdulsalam Bunyamin" className='text-dark fs-3 mt-md-1' target="_blank" rel="noreferrer"><img src={slackImg} alt="" className='img-fluid text-dark fs-3 mt-2 mt-md-3 mx-2 slack-img' /></a>
           <a href="http://github.com/olalekan67/zuritask1" className='text-dark fs-3 mt-md-1' target="_blank" rel="noreferrer"><FaGithub /></a>
      </div>
      </section>
