@@ -11,7 +11,7 @@ function Profile({name}) {
         <h5 id='twitter' className='d-none'>olalekan103</h5>
         <h5 className="d-none" id='slack'>{name}</h5>
         <div className='position-top ms-auto'>
-          <button className='btn btn-outline-secondary rounded-pill col-1 profile-btn'><TbDots /></button>
+          <button className='btn btn-outline-secondary col-1 profile-btn'><TbDots /></button>
         </div>
     </div>
   )
