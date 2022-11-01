@@ -38,7 +38,7 @@
     margin-right: 0em;
   }
   .dot-btn{
-    display: block;
+    display: flex;
   }
 
   .share-btn{
