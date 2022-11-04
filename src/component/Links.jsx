@@ -1,5 +1,6 @@
 import React from 'react'
 // import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import { FaGithub} from 'react-icons/fa'
 import slackImg from './assets/slackLogo.png'
 
@@ -26,6 +27,7 @@ function Links({name}) {
                <a href="https://books.zuri.team/design-rules"  target='_blank' rel='noreferrer'>
                     <button className="btn btns w-100" id='book__design'>Design Books</button>
                </a>
+               <Link to='/contact'><button className='btn btns w-100' id='contact'>Contact Me</button></Link>
      </div>
           <div className='d-flex flex-row justify-content-center gap-3 gap-md-4 mt-2'>
           <a href="https://slack.com" target="_blank" rel="noreferrer"><img src={slackImg} alt="" className='img-fluid text-dark fs-3 mt-2 mt-md-3 mx-2 slack-img' /></a>

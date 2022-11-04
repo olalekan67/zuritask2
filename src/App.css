@@ -29,6 +29,9 @@
   width: 25px;
   height: 25px;
 }
+.contact-input{
+  border: 1px solid black;
+}
 
 @media(max-width: 600px){
   .profile-btn{
