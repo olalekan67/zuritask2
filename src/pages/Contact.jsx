@@ -31,7 +31,7 @@ function Contact({name}) {
                 <input type="checkbox" name="checkbox" className='my-2' />
                 <p className='my-1 mx-2 mx-md-3'>You agree to providing your data to {name} who may contact you</p>
             </label>
-            <input type="submit" value="Send message" className='btn btn-primary w-100 mt-3 mb-3' />
+            <input type="submit" id='btn__submit' value="Send message" className='btn btn-primary w-100 mt-3 mb-3' />
         </form>
     </div>
   )
