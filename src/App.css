@@ -32,6 +32,10 @@
 .contact-input{
   border: 1px solid black;
 }
+#check{
+  accent-color: #fff;
+ 
+}
 
 @media(max-width: 600px){
   .profile-btn{
