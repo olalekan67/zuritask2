@@ -50,7 +50,7 @@ function Contact({name}) {
                 <textarea name="message" value={message} onChange={(e) => setMessage(e.target.value)} id="message" rows="5" required className='w-100 contact-input px-2 py-2 rounded' placeholder="Send me a message and i'll reply you as soon as possible..."></textarea>
             </label>
             <label htmlFor="checkbox" className='d-flex pt-2'>
-                <input type="checkbox" value={check} name="checkbox" onClick={(e) => setCheck(!check)} className='h-25 mt-1 ' id='check' required/>
+                <input type="checkbox" value={check} name="checkbox" onClick={(e) => setCheck(!check)} className='mt-1 ' id='check' required/>
                 <p className='mx-2 mx-md-3'>You agree to providing your data to {name} who may contact you</p>
             </label>
             <button type='submit' id='btn__submit' onClick={handleSubmit} className='btn btn-primary w-100 mt-3 mb-3'>Send message</button>
